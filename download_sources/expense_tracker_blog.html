@@ -1536,22 +1536,22 @@ border-radius: 0px;
 <h3>Introduction</h3>
 <p>My motivation for this project is twofold: I want to keep better
 track of my spending and budgeting, and I want to improve my coding
-skills. Plenty of proprietary budgeting applications like Mint or free
-Excel templates allow people to build and maintain budgets. Personally,
-I’ve felt constrained by these products because I want the flexibility
-of creating my own expenditure categories and subcategories. At the same
-time, I want to expand my coding skills and revisit some coding concepts
-that I didn’t fully grasp while in grad school.</p>
-<p>I want to lockdown the theory and workflows of user-generated
-functions, for-loops, and iteration. As I was developing this project, a
-useful phrase occurred to me about how to shift my thinking about data
-science techniques. Using “data structures as tools” is a significant
-step for my knowledge and skills. Specifically, I will be using the list
-structure in R to engineer the functionality I want from my budgeting
-app. This solution is built around the data I get from my bank and
-suited to my particular needs, but I’m already thinking about how to
-build a more generalized application to further expand my skills into
-machine learning.</p>
+skills. There are plenty of Excel templates or budgeting apps like Mint
+that allow people to build and maintain budgets. Personally, I feel
+constrained by these products because they don’t give me the level of
+flexibility and control that I’m looking for. At the same time, I want
+to expand my coding skills and revisit some coding concepts that I
+didn’t fully grasp while in grad school.</p>
+<p>I want to solidify my understanding of user-generated functions,
+for-loops, and iteration by engineering a solution from scratch. As I
+was developing this project, a useful phrase occurred to me about how to
+shift my thinking about data science techniques. Using “data structures
+as tools” is a significant step for my knowledge and skills.
+Specifically, I will be using the list structure in R to create the
+functionality I want from my budgeting app. This solution is built
+around the data I get from my bank and suited to my particular needs,
+but I’m already thinking about how to build a more generalized
+application to further expand my skills into machine learning.</p>
 <p>Another important focus for me is workflow and repository management.
 I want to get more accustomed to both RStudio Projects and GitHub. I’m
 also practicing commenting and organizing my code so that it is more
@@ -1713,16 +1713,16 @@ the number of rows in a dataframe:</p>
 or list:</p>
 <pre class="r"><code>names(CC_stmt_allmonths)</code></pre>
 <pre><code>## [1] &quot;date&quot;   &quot;id&quot;     &quot;source&quot; &quot;amount&quot;</code></pre>
-<p>This is where programs like Mint will automatically assign categories
-to your transactions and what I want to code for myself. My goal is not
-necessarily to reduce work at this stage in development. I am aiming for
-control and accuracy in how transactions get categorized. The most
-direct and controlled way to do this is by manually assigning values to
-each row in Excel. In my case, it would only take 1094 separate entries
-across two columns to start, then labeling transactions that come in
-every month. That method may help me to keep better track of my spending
-but would keep me from learning some new techniques, also it’s a
-complete pain in the ass.</p>
+<p>Programs like Mint will automatically assign categories to your
+transactions, but I want to create my own version of that process. My
+goal is not necessarily to reduce work at this stage in development. I
+am aiming for control and accuracy in how transactions get categorized.
+The most direct and precise way to do this is by manually assigning
+values to each row in Excel. In my case, it would take 1094 separate
+entries across two columns to start, then labeling transactions that
+come in every month. That method may help me to keep better track of my
+spending, but would eliminate the coding challenge and it’s a complete
+pain in the ass.</p>
 <p>My first idea was to look for recurring patterns in
 <code>source</code>, which represents the vendor that received the
 payment. The information contained in <code>source</code> will determine
