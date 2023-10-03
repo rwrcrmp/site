@@ -1,0 +1,26 @@
+---
+title: "Project Organization"
+author: "Robert Crump"
+date: "September 18, 2023"
+toc: true
+format:
+  html:
+    theme: darkly
+    code-fold: true
+    self-contained: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, 
+                      warning = FALSE,
+                      message = FALSE)
+```
+
+
+### Introduction
+
+ok text goes here to simulate what a paragraph would do on the page and stuff
+
+```{r}
+x <- "yes"
+```
